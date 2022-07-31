@@ -30,6 +30,8 @@ $ python distribuidor.py
 
 https://learning-0mq-with-pyzmq.readthedocs.io/en/latest/pyzmq/patterns/pushpull.html
 
+https://antoniogarrote.wordpress.com/2010/09/08/zeromq-and-clojure-a-brief-introduction/
+
 
 ## Resoluções da Comunidade
 
