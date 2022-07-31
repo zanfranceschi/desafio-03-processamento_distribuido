@@ -3,6 +3,8 @@ import uuid
 import random
 
 context = zmq.Context()
+
+# socket para fazer o push do payload para os workers
 socket = context.socket(zmq.PUSH)
 socket.bind("tcp://*:9000")
 
@@ -12,6 +14,7 @@ while True:
     e 200 números aleatórios em cada linha
     separados por espaço.
     """
+    print("generating batch...")
     with open("numbers", "w") as file:
         for _ in range(20000):
             items = []
@@ -21,6 +24,7 @@ while True:
             file.writelines(items)
 
     
+    print("sending new batch")
     batch_id = str(uuid.uuid4())
     with open("numbers", "r") as file:
         
@@ -49,5 +53,5 @@ while True:
                     "lines": lines_to_send})
                 lines_to_send = []
         
-
-socket.close()
+        print(f"all parts sent for batch {batch_id}")
+        

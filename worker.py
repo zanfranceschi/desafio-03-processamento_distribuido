@@ -1,15 +1,12 @@
-import time
 import zmq
-import random
-
 
 context = zmq.Context()
 
-# socket para receber os números
+# socket para fazer o pull do payload
 sender_socket = context.socket(zmq.PULL)
 sender_socket.connect("tcp://127.0.0.1:9000")
 
-# socket para enviar o resultado
+# socket para fazer o push do resultado
 results_socket = context.socket(zmq.PUSH)
 results_socket.connect("tcp://127.0.0.1:9001")
 
