@@ -13,7 +13,7 @@ $ pip install -r requirements.txt
 
 Agora o coletor dos resultados:
 ~~~
-$ python results_collector.py
+$ python coletor.py
 ~~~
 
 Para os workers, execute o seguinte comando algumas vezes (ex.: 4x para que 4 workers processem em paralelo) em terminais diferentes:
@@ -23,7 +23,7 @@ $ python worker.py
 
 E finalmente o módulo que produz o conteúdo a ser processado:
 ~~~
-$ python sender.py
+$ python distribuidor.py
 ~~~
 
 ## Referência
