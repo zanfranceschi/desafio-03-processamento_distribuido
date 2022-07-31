@@ -9,12 +9,12 @@
 (defn distribui!
   []
   (let [context (zmq/context)
-        linhas (str/split-lines (slurp ""))]
+        linhas ["1 3 4" "4 5 6"] #_(str/split-lines (slurp ""))]
     (with-open [publisher (doto (zmq/socket context :push)
                             (zmq/bind "tcp://*:9000"))]
       (doseq [linha linhas]
-        
+        (println linha)
         (zmq/send-str publisher (json/write-str {:batch_id "1"
                                                  :batch_part 1
                                                  :total_lines 2
-                                                 :lines ["1 2 345" "2 3 4"]}))))))
+                                                 :lines [linha]}))))))
