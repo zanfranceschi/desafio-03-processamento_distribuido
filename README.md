@@ -4,20 +4,6 @@ Esse repositório faz parte do desafio disponível [nessa thread do twitter](htt
 
 Por favor, note que o código disponível aqui não tem qualidade de produção e não deveria ser usado para referência de um sistema produtivo.
 
-<!--
-```
-@startuml diagrama
-
-Alice -> Bob: Hello
-Bob -> Alice: Hi!
-		
-@enduml
-```
--->
-
-![](diagrama.svg)
-
-
 ### Executando a Solução
 Em um ambiente virtual, execute:
 ~~~
@@ -25,17 +11,17 @@ $ pip install -r requirements.txt
 ~~~
 
 
-Agora o coletor dos resultados
+Agora o coletor dos resultados:
 ~~~
 $ python results_collector.py
 ~~~
 
-workers:
+Os workers:
 ~~~
 $ python worker.py
 ~~~
 
-e finalmente o módulo que produz o conteúdo a ser processado:
+E finalmente o módulo que produz o conteúdo a ser processado:
 ~~~
 $ python sender.py
 ~~~
