@@ -16,7 +16,7 @@ Agora o coletor dos resultados:
 $ python results_collector.py
 ~~~
 
-Os workers:
+Para os workers, execute o seguinte comando algumas vezes (ex.: 4x para que 4 workers processem em paralelo) em terminais diferentes:
 ~~~
 $ python worker.py
 ~~~
