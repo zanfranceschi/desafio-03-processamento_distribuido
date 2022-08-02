@@ -1,6 +1,6 @@
 # Desafio 03: Processamento Distribuído Básico
 
-Esse repositório faz parte do desafio disponível [nessa thread do twitter](https://twitter.com/zanfranceschi/status/1550228591652519936) e também [nesse post de dev.to](https://dev.to/zanfranceschi/desafio-frontend-conectar-a-uma-api-para-sse-9ok).
+Esse repositório faz parte do desafio disponível [nessa thread do twitter](https://twitter.com/zanfranceschi/status/1554347725969182720) e também [nesse post de dev.to](https://dev.to/zanfranceschi/desafio-processamento-distribuido-basico-45ka).
 
 Por favor, note que o código disponível aqui não tem qualidade de produção e não deveria ser usado para referência de um sistema produtivo.
 
