@@ -49,7 +49,6 @@ while True:
                 batch_part += 1
                 socket.send_json({
                     "batch_id": batch_id,
-                    "batch_part" : batch_part,
                     "total_lines" : num_lines,
                     "lines": lines_to_send})
                 lines_to_send = []
