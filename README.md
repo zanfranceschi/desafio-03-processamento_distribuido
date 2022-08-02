@@ -4,6 +4,8 @@ Esse repositório faz parte do desafio disponível [nessa thread do twitter](htt
 
 Por favor, note que o código disponível aqui não tem qualidade de produção e não deveria ser usado para referência de um sistema produtivo.
 
+![image](https://user-images.githubusercontent.com/1862567/182301007-223c6494-e8b5-4840-a9f9-821409fc8bed.png)
+
 ## Sugestões de Resolução
 
 Uma [implementação completa em Python](./python/) está disponível. Note que mantive o código o mais simples possível usando programação procedural/imperativa ─ acredito que essa seja a forma com menos abstração possível e que mais facilite o entendimento do que está sendo feito.
