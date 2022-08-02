@@ -4,34 +4,20 @@ Esse repositório faz parte do desafio disponível [nessa thread do twitter](htt
 
 Por favor, note que o código disponível aqui não tem qualidade de produção e não deveria ser usado para referência de um sistema produtivo.
 
-### Executando a Solução
-Em um ambiente virtual, execute:
-~~~
-$ pip install -r requirements.txt
-~~~
+## Sugestões de Resolução
+
+Uma implementação completa em Python está disponível em [python](./python/). Note que tentei manter o código o mais simples possível usando programação procedural/imperativa - acredito que é a forma com menos abstração possível e que facilita o entendimento do que está sendo feito.
+
+Também me arrisquei numa implementação do distribuidor apenas em Clojure em [clojure](./clojure/).
 
 
-Agora o coletor dos resultados:
-~~~
-$ python coletor.py
-~~~
-
-Para os workers, execute o seguinte comando algumas vezes (ex.: 4x para que 4 workers processem em paralelo) em terminais diferentes:
-~~~
-$ python worker.py
-~~~
-
-E finalmente o módulo que produz o conteúdo a ser processado:
-~~~
-$ python distribuidor.py
-~~~
-
-## Referência
+## Referências
 
 https://learning-0mq-with-pyzmq.readthedocs.io/en/latest/pyzmq/patterns/pushpull.html
 
 https://antoniogarrote.wordpress.com/2010/09/08/zeromq-and-clojure-a-brief-introduction/
 
+https://rabbitmq.com/tutorials/tutorial-two-python.html
 
 ## Resoluções da Comunidade
 
