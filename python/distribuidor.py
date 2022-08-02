@@ -15,14 +15,13 @@ while True:
     separados por espaço.
     """
     print("generating batch...")
-    with open("numbers", "w") as file:
-        for _ in range(20_000):
+    with open("../numbers", "w") as file:
+        for _ in range(20000):
             items = []
             for _ in range(200):
                 items.append(str(random.randrange(1, 512)) + " ")
             items.append("\n")
             file.writelines(items)
-   
     
     batch_id = str(uuid.uuid4())
     print(f"sending new batch: {batch_id}")
