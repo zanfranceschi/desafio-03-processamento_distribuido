@@ -6,9 +6,9 @@ Por favor, note que o código disponível aqui não tem qualidade de produção 
 
 ## Sugestões de Resolução
 
-Uma implementação completa em Python está disponível em [python](./python/). Note que tentei manter o código o mais simples possível usando programação procedural/imperativa - acredito que é a forma com menos abstração possível e que facilita o entendimento do que está sendo feito.
+Uma [implementação completa em Python](./python/) está disponível. Note que mantive o código o mais simples possível usando programação procedural/imperativa ─ acredito que essa seja a forma com menos abstração possível e que mais facilite o entendimento do que está sendo feito.
 
-Também me arrisquei numa implementação do distribuidor apenas em Clojure em [clojure](./clojure/).
+Também me arrisquei numa [implementação do distribuidor em Clojure](./clojure/).
 
 
 ## Referências
