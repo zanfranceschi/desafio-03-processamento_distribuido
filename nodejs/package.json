@@ -1,0 +1,15 @@
+{
+  "name": "cluster-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "author": "Abdul Haidar",
+  "license": "ISC",
+  "devDependencies": {
+    "bull": "^4.8.5"
+  }
+}
